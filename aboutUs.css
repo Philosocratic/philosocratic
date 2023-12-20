@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-/* Add additional styles for your content if needed */
+
 h1, p {
     text-align: center;
 }
@@ -19,6 +19,6 @@ h1 {
 }
 
 img.top-left {
-    max-width: 50px;  /* Set a specific width for the top-left image */
+    max-width: 50px;
     height: auto;
 }

@@ -17,8 +17,8 @@ h1, h2, p {
 a.button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00ff00; /* Change this color to the one you prefer, e.g., green */
-    color: #ffffff; /* Text color */
+    background-color: #00ff00;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     font-family: Arial;
@@ -44,6 +44,6 @@ a.home-link {
 }
 
 img.top-left {
-    max-width: 50px;  /* Set a specific width for the top-left image */
+    max-width: 50px;
     height: auto;
 }

@@ -26,8 +26,8 @@
         a.button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #FFE5B4ff;
-            color: #000000;
+            background-color: #00ff00; /* Change this color to the one you prefer, e.g., green */
+            color: #ffffff; /* Text color */
             text-decoration: none;
             border-radius: 5px;
             font-family: Arial;
@@ -46,17 +46,22 @@
             margin-bottom: 20px;
         }
 
-        img.top-left {
-            max-width: 50px;  /* Set a specific width for the top-left image */
-            height: auto;
+        a.home-link {
             position: absolute;
             top: 10px;
             left: 10px;
         }
+
+        img.top-left {
+            max-width: 50px;  /* Set a specific width for the top-left image */
+            height: auto;
+        }
     </style>
 </head>
 <body>
-    <img src="resources/logos/philosocratic-logo.png" alt="Top Left Image" class="top-left">
+    <a href="https://philosocratic.github.io/philosocratic/" class="home-link">
+        <img src="resources/logos/philosocratic-logo.png" alt="Top Left Image" class="top-left">
+    </a>
     <h1>Philosocratic</h1>
     <h2>The Socratic Way of Thinking</h2>
     <p><a href="aboutus.html" class="button">Understand who we are!</a></p>

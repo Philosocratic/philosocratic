@@ -10,7 +10,7 @@
         body {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start; /* Align items to the start (left) */
             justify-content: center;
             min-height: 100vh;
             margin: 0;
@@ -20,7 +20,7 @@
         /* Add additional styles for your content if needed */
         h1, h2, p {
             text-align: center;
-            margin-top: 20px; /* Adjusted margin-top value */
+            margin-top: 20px;
             color: #000000; /* Set text color to black */
         }
         
@@ -39,10 +39,19 @@
 
         h1 {
             font-size: 300%;
+            margin-left: 20px; /* Add margin to the left */
+        }
+
+        /* Style for the image */
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 20px; /* Add margin to the right */
         }
     </style>
 </head>
 <body>
+    <img src="resources/logos/philosocratic-logo.png" alt="Philosocratic Logo"> 
     <h1>Philosocratic</h1>
     <h2>The Socratic Way of Thinking</h2>
     <p><a href="aboutus.html" class="button">Understand who we are!</a></p>

@@ -47,3 +47,13 @@ img.top-left {
     max-width: 50px;  /* Set a specific width for the top-left image */
     height: auto;
 }
+a.github-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+img.bottom-right {
+    max-width: 50px;
+    height: auto;
+}

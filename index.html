@@ -40,17 +40,26 @@
             margin-bottom: 0;
         }
 
-        img {
+        img.logo {
             max-width: 50%;
             height: auto;
             margin-bottom: 20px;
         }
+
+        img.top-left {
+            max-width: 50px;  /* Set a specific width for the top-left image */
+            height: auto;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
     </style>
 </head>
 <body>
+    <img src="resources/logos/philosocratic-logo.png" alt="Top Left Image" class="top-left">
     <h1>Philosocratic</h1>
     <h2>The Socratic Way of Thinking</h2>
     <p><a href="aboutus.html" class="button">Understand who we are!</a></p>
-    <img src="resources/logos/begin-button.jpg" alt="Philosocratic Logo">
+    <img src="resources/logos/begin-button.jpg" alt="Philosocratic Logo" class="logo">
 </body>
 </html>

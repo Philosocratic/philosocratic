@@ -47,9 +47,18 @@ img.top-left {
     max-width: 50px;  /* Set a specific width for the top-left image */
     height: auto;
 }
+
+/* Styles for the GitHub link at the bottom right */
 a.github-link {
     position: fixed;
     bottom: 10px;
+    right: 10px;
+}
+
+/* New styles for the Discord link at the bottom right */
+a.discord-link {
+    position: fixed;
+    bottom: 70px; /* Adjust the distance from the bottom as needed */
     right: 10px;
 }
 

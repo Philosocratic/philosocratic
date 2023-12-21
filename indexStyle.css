@@ -8,6 +8,10 @@ body {
     font-family: Arial;
 }
 
+.center-container {
+    text-align: center;
+}
+
 h1, h2, p {
     text-align: center;
     margin-top: 20px;

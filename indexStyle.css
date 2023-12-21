@@ -62,7 +62,7 @@ a.github-link {
 /* New styles for the Discord link at the bottom right */
 a.discord-link {
     position: fixed;
-    bottom: 70px; /* Adjust the distance from the bottom as needed */
+    bottom: 70px; 
     right: 10px;
 }
 

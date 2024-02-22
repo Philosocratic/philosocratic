@@ -1,2 +1,5 @@
-# philosocraticv2
-This is an educational website that will teach philosophy in an approachable manner.
+# philosocratic
+
+Philosocratic is now in Flutter!
+
+
